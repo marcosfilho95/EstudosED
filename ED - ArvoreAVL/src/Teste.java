@@ -1,0 +1,75 @@
+public class Teste {
+    public static void main(String[] args) {
+        ArvoreAVL arvore = new ArvoreAVL();
+        arvore.adicionarElementoArvoreAVL(30);
+        arvore.adicionarElementoArvoreAVL(20);
+        arvore.adicionarElementoArvoreAVL(50);
+        arvore.adicionarElementoArvoreAVL(10);
+        arvore.adicionarElementoArvoreAVL(25);
+        arvore.adicionarElementoArvoreAVL(40);
+        arvore.adicionarElementoArvoreAVL(70);
+        arvore.adicionarElementoArvoreAVL(35);
+        arvore.adicionarElementoArvoreAVL(60);
+        arvore.adicionarElementoArvoreAVL(80);
+        arvore.buscar_ElementoArvoreBusca(30);
+        arvore.buscar_ElementoArvoreBusca(20);
+        arvore.buscar_ElementoArvoreBusca(25);
+        arvore.buscar_ElementoArvoreBusca(10);
+        arvore.buscar_ElementoArvoreBusca(50);
+        arvore.buscar_ElementoArvoreBusca(35);
+        arvore.buscar_ElementoArvoreBusca(70);
+        arvore.buscar_ElementoArvoreBusca(80);
+        arvore.buscar_ElementoArvoreBusca(60);
+        arvore.buscar_ElementoArvoreBusca(40);
+        System.out.println("-----------------------------");
+        arvore.removerNoArvoreAVL(arvore.raiz_arvore, 40);
+        arvore.buscar_ElementoArvoreBusca(30);
+        arvore.buscar_ElementoArvoreBusca(20);
+        arvore.buscar_ElementoArvoreBusca(25);
+        arvore.buscar_ElementoArvoreBusca(10);
+        arvore.buscar_ElementoArvoreBusca(50);
+        arvore.buscar_ElementoArvoreBusca(35);
+        arvore.buscar_ElementoArvoreBusca(70);
+        arvore.buscar_ElementoArvoreBusca(80);
+        arvore.buscar_ElementoArvoreBusca(60);
+        arvore.buscar_ElementoArvoreBusca(40);
+        System.out.println("-----------------------------");
+        arvore.removerNoArvoreAVL(arvore.raiz_arvore, 25);
+        arvore.buscar_ElementoArvoreBusca(30);
+        arvore.buscar_ElementoArvoreBusca(20);
+        arvore.buscar_ElementoArvoreBusca(10);
+        arvore.buscar_ElementoArvoreBusca(50);
+        arvore.buscar_ElementoArvoreBusca(35);
+        arvore.buscar_ElementoArvoreBusca(70);
+        arvore.buscar_ElementoArvoreBusca(80);
+        arvore.buscar_ElementoArvoreBusca(60);
+        arvore.buscar_ElementoArvoreBusca(40);
+        arvore.buscar_ElementoArvoreBusca(25);
+        System.out.println("-----------------------------");
+        arvore.removerNoArvoreAVL(arvore.raiz_arvore, 50);
+        arvore.buscar_ElementoArvoreBusca(30);
+        arvore.buscar_ElementoArvoreBusca(20);
+        arvore.buscar_ElementoArvoreBusca(10);
+        arvore.buscar_ElementoArvoreBusca(35);
+        arvore.buscar_ElementoArvoreBusca(70);
+        arvore.buscar_ElementoArvoreBusca(80);
+        arvore.buscar_ElementoArvoreBusca(60);
+        arvore.buscar_ElementoArvoreBusca(40);
+        arvore.buscar_ElementoArvoreBusca(25);
+        arvore.buscar_ElementoArvoreBusca(50);
+        System.out.println("-----------------------------");
+        arvore.removerNoArvoreAVL(arvore.raiz_arvore, 10);
+        arvore.buscar_ElementoArvoreBusca(30);
+        arvore.buscar_ElementoArvoreBusca(20);
+        arvore.buscar_ElementoArvoreBusca(35);
+        arvore.buscar_ElementoArvoreBusca(70);
+        arvore.buscar_ElementoArvoreBusca(80);
+        arvore.buscar_ElementoArvoreBusca(60);
+        arvore.buscar_ElementoArvoreBusca(40);
+        arvore.buscar_ElementoArvoreBusca(25);
+        arvore.buscar_ElementoArvoreBusca(50);
+        arvore.buscar_ElementoArvoreBusca(10);
+
+
+    }
+}
